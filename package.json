@@ -1,0 +1,24 @@
+{
+    "name": "instagram-to-youtube",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Fernando Rojas",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.4",
+        "cheerio": "^1.0.0-rc.10",
+        "enquirer": "^2.3.6",
+        "google-auth-library": "^7.11.0",
+        "googleapis": "^95.0.0",
+        "inquirer": "^8.2.0",
+        "instagram-web-api": "^2.2.2",
+        "node-html-parser": "^5.2.0",
+        "simple-instagram-api": "^3.0.0",
+        "tough-cookie-filestore2": "^1.0.0"
+    }
+}
